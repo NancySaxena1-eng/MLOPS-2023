@@ -1,0 +1,43 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.2",
+    "heartbeatAt": "2023-06-06T18:55:22.720065",
+    "startedAt": "2023-06-06T18:55:22.004188",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "WANDBTEST",
+        "--wandb_entity",
+        "nancy7th",
+        "--data_artifact",
+        "nancy7th/WANDBTEST/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Nancy Saxena\\mlops-zoomcamp\\cohorts\\2023\\02-experiment-tracking\\homework-wandb\\train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-LIPK2P4",
+    "username": "Nancy",
+    "executable": "C:\\Program Files\\Python310\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 2375.0,
+        "min": 0.0,
+        "max": 2375.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2375.0,
+            "min": 0.0,
+            "max": 2375.0
+        }
+    ],
+    "disk": {
+        "total": 221.53710556030273,
+        "used": 216.05699920654297
+    },
+    "memory": {
+        "total": 7.368656158447266
+    }
+}

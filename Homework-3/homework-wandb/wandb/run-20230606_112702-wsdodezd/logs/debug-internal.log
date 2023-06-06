@@ -1,0 +1,17 @@
+2023-06-06 11:27:02,099 INFO    StreamThr :21492 [internal.py:wandb_internal():86] W&B internal server running at pid: 21492, started at: 2023-06-06 11:27:02.097137
+2023-06-06 11:27:02,102 DEBUG   HandlerThread:21492 [handler.py:handle_request():144] handle_request: status
+2023-06-06 11:27:02,115 INFO    WriterThread:21492 [datastore.py:open_for_write():85] open: C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\run-wsdodezd.wandb
+2023-06-06 11:27:02,138 DEBUG   SenderThread:21492 [sender.py:send():375] send: header
+2023-06-06 11:27:02,138 DEBUG   SenderThread:21492 [sender.py:send():375] send: run
+2023-06-06 11:27:02,572 DEBUG   HandlerThread:21492 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-06 11:27:02,573 INFO    HandlerThread:21492 [handler.py:finish():842] shutting down handler
+2023-06-06 11:27:02,573 INFO    SenderThread:21492 [dir_watcher.py:__init__():219] watching files in: C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\files
+2023-06-06 11:27:02,573 INFO    SenderThread:21492 [sender.py:_start_run_threads():1124] run started: wsdodezd with start time 1686076022.100345
+2023-06-06 11:27:02,573 INFO    SenderThread:21492 [sender.py:finish():1550] shutting down sender
+2023-06-06 11:27:02,573 INFO    SenderThread:21492 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-06 11:27:03,145 INFO    WriterThread:21492 [datastore.py:close():298] close: C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\run-wsdodezd.wandb
+2023-06-06 11:27:03,585 INFO    SenderThread:21492 [dir_watcher.py:finish():395] scan: C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\files
+2023-06-06 11:27:03,585 INFO    SenderThread:21492 [dir_watcher.py:finish():409] scan save: C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\files\config.yaml config.yaml
+2023-06-06 11:27:03,586 INFO    SenderThread:21492 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-06 11:27:03,586 INFO    SenderThread:21492 [file_pusher.py:join():172] waiting for file pusher
+2023-06-06 11:27:04,279 INFO    wandb-upload_0:21492 [upload_job.py:push():137] Uploaded file C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\files\config.yaml

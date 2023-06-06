@@ -1,0 +1,36 @@
+2023-06-06 11:27:02,081 INFO    MainThread:18524 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-06-06 11:27:02,082 INFO    MainThread:18524 [wandb_setup.py:_flush():76] Configure stats pid to 18524
+2023-06-06 11:27:02,082 INFO    MainThread:18524 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Nancy Saxena\.config\wandb\settings
+2023-06-06 11:27:02,082 INFO    MainThread:18524 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\settings
+2023-06-06 11:27:02,082 INFO    MainThread:18524 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-06 11:27:02,082 INFO    MainThread:18524 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-06 11:27:02,082 INFO    MainThread:18524 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'C:\\Users\\Nancy Saxena\\mlops-zoomcamp\\cohorts\\2023\\02-experiment-tracking\\homework-wandb\\train.py'}
+2023-06-06 11:27:02,083 INFO    MainThread:18524 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\logs\debug.log
+2023-06-06 11:27:02,083 INFO    MainThread:18524 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\Nancy Saxena\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\wandb\run-20230606_112702-wsdodezd\logs\debug-internal.log
+2023-06-06 11:27:02,083 INFO    MainThread:18524 [wandb_init.py:init():547] calling init triggers
+2023-06-06 11:27:02,083 INFO    MainThread:18524 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'max_depth': 10, 'random_state': 0}
+2023-06-06 11:27:02,083 INFO    MainThread:18524 [wandb_init.py:init():596] starting backend
+2023-06-06 11:27:02,083 INFO    MainThread:18524 [wandb_init.py:init():600] setting up manager
+2023-06-06 11:27:02,090 INFO    MainThread:18524 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-06-06 11:27:02,100 INFO    MainThread:18524 [wandb_init.py:init():606] backend started and connected
+2023-06-06 11:27:02,102 INFO    MainThread:18524 [wandb_init.py:init():700] updated telemetry
+2023-06-06 11:27:02,103 INFO    MainThread:18524 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-06-06 11:27:02,554 WARNING MainThread:18524 [wandb_init.py:init():1172] interrupted
+Traceback (most recent call last):
+  File "C:\Users\Nancy Saxena\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_init.py", line 1150, in init
+    run = wi.init()
+  File "C:\Users\Nancy Saxena\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_init.py", line 740, in init
+    result = run_init_handle.wait(
+  File "C:\Users\Nancy Saxena\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "C:\Users\Nancy Saxena\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "C:\Users\Nancy Saxena\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "C:\Program Files\Python310\lib\threading.py", line 600, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Program Files\Python310\lib\threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2023-06-06 11:27:04,910 WARNING MsgRouterThr:18524 [router.py:message_loop():77] message_loop has been closed
