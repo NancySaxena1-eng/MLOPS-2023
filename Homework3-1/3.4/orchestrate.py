@@ -11,6 +11,8 @@ import xgboost as xgb
 from prefect import flow, task
 from prefect.artifacts import create_markdown_artifact
 from datetime import date
+from prefect import flow
+from prefect_email import EmailServerCredentials, email_send_message
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 @task(retries=3, retry_delay_seconds=2,name="Read taxi data")
@@ -147,6 +149,7 @@ def main_flow(
 
     # Train
     train_best_model(X_train, X_val, y_train, y_val, dv)
+    
 
 
 if __name__ == "__main__":
